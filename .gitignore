@@ -1,0 +1,79 @@
+# ==========================================
+# 1. Python, Jupyter y Entornos Virtuales
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks (archivos temporales y checkpoints)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Distribución / Empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# 2. QGIS y Datos Geoespaciales Temporales
+# ==========================================
+*.qgs~
+*.qgz~
+*.lock
+*.tmp
+
+# ==========================================
+# 3. Jekyll / Ruby (GitHub Pages)
+# ==========================================
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+
+# ==========================================
+# 4. Gatsby / Node.js (GitHub Pages)
+# ==========================================
+node_modules/
+.cache/
+public/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==========================================
+# 5. Archivos del Sistema Operativo y Editores
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDEs y Editores de código
+.vscode/
+.idea/
