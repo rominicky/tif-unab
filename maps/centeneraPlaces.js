@@ -1,4 +1,4 @@
-var Places = {
+var centeneraPlaces = {
   "Acay": [-25.9167,-57.15],
   "Aliaga": [40.6741,-0.7033],
   "Anco Anco": [-13.1166,-73.6904],
